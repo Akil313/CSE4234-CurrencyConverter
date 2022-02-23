@@ -1,0 +1,77 @@
+body{
+    background-color: #9AD0EC;
+}
+
+.converter-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5vh;
+    margin-left: 10px;
+}
+
+.input-container{
+    display: flex;
+    width: 85%;
+    height: 6vh;
+    align-items: center;
+    column-gap: 3%;
+}
+
+.input-title{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 10%;
+    border: 1px solid #1572A1;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.input-field{
+    display: flex;
+    height: 100%;
+    flex:4;
+    border: 1px solid #1572A1;
+    border-radius: 5px;
+    
+}
+
+#convert-result{
+    height: 10vh;
+    width: 90%;
+    border: 1px solid #1572A1;
+    border-radius: 15px;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+}
+
+#calculate-btn{
+    max-width: 20vw;
+    min-height: 5vh;
+    border-radius: 15px;
+}
+
+#currency-buttons{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.currBtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 0 1 calc(7% - 8px);
+}
+
+.currBtn img{
+    width: 5vh;
+    height: 4vh;
+}
